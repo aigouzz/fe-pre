@@ -26,6 +26,17 @@ module.exports = {
             {
                 title: 'react解析',
                 path: '/react/main',
+                sidebarDepth: 1,
+                children: [
+                    {
+                        title: 'react源码',
+                        path: '/react/code'
+                    },
+                    {
+                        title: 'redux源码',
+                        path: '/react/redux'
+                    },
+                ],
             },
             {
                 title: 'webpack解析',
@@ -48,12 +59,12 @@ module.exports = {
                 sidebarDepth: 1,
                 children: [
                     {
-                        title: '解析特性',
+                        title: '解析特性第一部分',
                         path: '/audit/first'
                     },
                     {
-                        title: '解析特性',
-                        path: '/webpack/second'
+                        title: '解析特性第二部分',
+                        path: '/audit/second'
                     }
                 ],
             },
