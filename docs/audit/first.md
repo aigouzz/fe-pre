@@ -1,4 +1,4 @@
-##### JSON.stringify的几个用法
+### JSON.stringify的几个用法
 
 - JSON.stringify(value[, replacer [, space]])  
 value：(必须) 可以是任意值

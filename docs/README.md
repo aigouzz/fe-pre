@@ -11,8 +11,12 @@
 ### webpack相关解析
 - webpack配置相关
 - webpack loader相关
-- webpack plugin插件
+- webpack plugin插件  
 
+### 算法
+- 算法1-3
+- 算法4-6
+- 算法7-9
 
 
 <footStage />

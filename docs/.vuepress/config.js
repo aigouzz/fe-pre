@@ -68,6 +68,25 @@ module.exports = {
                     }
                 ],
             },
+            {
+                title: '算法',
+                path: '/calc/main',
+                sidebarDepth: 1,
+                children: [
+                    {
+                        title: '算法1-3',
+                        path: '/calc/first'
+                    },
+                    {
+                        title: '算法4-6',
+                        path: '/calc/second'
+                    },
+                    {
+                        title: '算法7-9',
+                        path: '/calc/third'
+                    }
+                ],
+            },
         ],
     },
     
