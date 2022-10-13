@@ -1,8 +1,15 @@
 module.exports = {
+    base: '/dist/',
     title: '前端面试',
     description: '前端面试宝典',
+    dest: '../aigouzz.github.io/dist/',
     themeConfig: {
-        logo: 'logo.png',
+        logo: './public/logo.png',
+        nav: [
+            { text: '我的主页', link: 'http://aigouzz.github.io/introduce' },
+            { text: '网易云音乐', link: 'http://aigouzz.github.io/music' },
+            { text: '商城项目', link: 'http://aigouzz.github.io/shop' },
+          ],
         sidebar: [
             {
                 title: 'vue解析',
@@ -10,8 +17,12 @@ module.exports = {
                 sidebarDepth: 1,
                 children: [
                     {
-                        title: 'vue源码',
+                        title: '对vue的理解',
                         path: '/vue/code'
+                    },
+                    {
+                        title: '对SPA（单页应用）的理解',
+                        path: '/vue/1'
                     },
                     {
                         title: 'vue-router源码',
