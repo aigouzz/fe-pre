@@ -25,6 +25,14 @@ module.exports = {
                         path: '/vue/1'
                     },
                     {
+                        title: 'vue组件和插件有什么区别',
+                        path: '/vue/2'
+                    },
+                    {
+                        title: 'slot的理解和slot应用场景',
+                        path: '/vue/3'
+                    },
+                    {
                         title: 'vue-router源码',
                         path: '/vue/router'
                     },
