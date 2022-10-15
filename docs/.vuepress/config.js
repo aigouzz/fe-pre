@@ -4,7 +4,7 @@ module.exports = {
     description: '前端面试宝典',
     dest: '../aigouzz.github.io/dist/',
     themeConfig: {
-        logo: 'logo.png',
+        logo: 'https://aigouzz.github.io/dist/logo.png',
         nav: [
             { text: '我的主页', link: 'http://aigouzz.github.io/introduce' },
             { text: '网易云音乐', link: 'http://aigouzz.github.io/music' },
