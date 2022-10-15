@@ -1,7 +1,7 @@
 module.exports = {
     base: '/dist/',
-    title: '前端面试',
-    description: '前端面试宝典',
+    title: '前端架构',
+    description: '前端架构宝典',
     dest: '../aigouzz.github.io/dist/',
     themeConfig: {
         logo: 'https://aigouzz.github.io/dist/logo.png',
