@@ -13,6 +13,53 @@ module.exports = {
           ],
         sidebar: [
             {
+                title: 'ES6',
+                path: '/es6/1',
+                sidebarDepth: 1,
+                children: [
+                    {
+                        title: 'var let const之间区别',
+                        path: '/es6/1'
+                    },
+                    {
+                        title: 'es6新增的扩展',
+                        path: '/es6/2'
+                    },
+                    {
+                        title: 'es6对象新增的扩展',
+                        path: '/es6/3'
+                    },
+                    {
+                        title: 'es6函数新增的扩展',
+                        path: '/es6/4'
+                    },
+                    {
+                        title: 'es6新增的Set，Map的理解',
+                        path: '/es6/4'
+                    },
+                    {
+                        title: 'ES6中promise的理解',
+                        path: '/es6/5'
+                    },
+                    {
+                        title: 'ES6中Generator的理解',
+                        path: '/es6/6'
+                    },
+                    {
+                        title: 'ES6中Proxy的理解',
+                        path: '/es6/7'
+                    },
+                    {
+                        title: 'ES6中Module的理解',
+                        path: '/es6/8'
+                    },
+                    {
+                        title: 'ES6中Decorator的理解',
+                        path: '/es6/9'
+                    },
+                ],
+            },
+            {
                 title: 'vue解析',
                 path: '/vue/code',
                 sidebarDepth: 1,
