@@ -258,24 +258,68 @@ module.exports = {
             },
             {
                 title: 'webpack解析',
-                path: '/webpack/main',
+                path: '/webpack/1',
                 sidebarDepth: 1,
                 children: [
+                    {
+                        title: 'webpack的理解，解决的问题',
+                        path: '/webpack/1'
+                    },
+                    {
+                        title: 'webpack的构建流程',
+                        path: '/webpack/2'
+                    },
+                    {
+                        title: 'webpack的常见的loader及其使用',
+                        path: '/webpack/3'
+                    },
+                    {
+                        title: 'webpack的常见的plugin及其使用',
+                        path: '/webpack/4'
+                    },
+                    {
+                        title: 'webpack的loader和plugin区别',
+                        path: '/webpack/5'
+                    },
+                    {
+                        title: 'webpack热更新如何实现',
+                        path: '/webpack/6'
+                    },
+                    {
+                        title: 'webpack proxy的工作原理',
+                        path: '/webpack/7'
+                    },
+                    {
+                        title: 'webpack的性能优化',
+                        path: '/webpack/8'
+                    },
+                    {
+                        title: '提高webpack的构建速度',
+                        path: '/webpack/9'
+                    },
+                    {
+                        title: '和webpack类似的工具',
+                        path: '/webpack/10'
+                    },
                     {
                         title: 'loader解析',
                         path: '/webpack/loaders'
                     },
                     {
-                        title: 'plugins解析',
+                        title: 'plugin解析',
                         path: '/webpack/plugins'
                     }
                 ],
             },
             {
                 title: 'mdn解析',
-                path: '/audit/main',
+                path: '/audit/1',
                 sidebarDepth: 1,
                 children: [
+                    {
+                        title: 'MDN地址',
+                        path: '/audit/1'
+                    },
                     {
                         title: '解析特性第一部分',
                         path: '/audit/first'
@@ -347,7 +391,7 @@ module.exports = {
             },
         ],
     },
-    chainWebpack(config, isServe) {
+    chainWebpack(config, isServer) {
         console.log(config)
         return config;
     },
