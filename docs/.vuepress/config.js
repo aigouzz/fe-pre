@@ -35,27 +35,27 @@ module.exports = {
                     },
                     {
                         title: 'es6新增的Set，Map的理解',
-                        path: '/es6/4'
-                    },
-                    {
-                        title: 'ES6中promise的理解',
                         path: '/es6/5'
                     },
                     {
-                        title: 'ES6中Generator的理解',
+                        title: 'ES6中promise的理解',
                         path: '/es6/6'
                     },
                     {
-                        title: 'ES6中Proxy的理解',
+                        title: 'ES6中Generator的理解',
                         path: '/es6/7'
                     },
                     {
-                        title: 'ES6中Module的理解',
+                        title: 'ES6中Proxy的理解',
                         path: '/es6/8'
                     },
                     {
-                        title: 'ES6中Decorator的理解',
+                        title: 'ES6中Module的理解',
                         path: '/es6/9'
+                    },
+                    {
+                        title: 'ES6中Decorator的理解',
+                        path: '/es6/10'
                     },
                 ],
             },
