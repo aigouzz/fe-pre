@@ -4,16 +4,17 @@ module.exports = {
     description: '前端面试宝典',
     dest: '../aigouzz.github.io/dist/',
     themeConfig: {
-        logo: './public/logo.png',
+        logo: 'logo.png',
         nav: [
             { text: '我的主页', link: 'http://aigouzz.github.io/introduce' },
             { text: '网易云音乐', link: 'http://aigouzz.github.io/music' },
             { text: '商城项目', link: 'http://aigouzz.github.io/shop' },
+            { text: '组件', link: 'http://aigouzz.github.io/demos' },
           ],
         sidebar: [
             {
                 title: 'vue解析',
-                path: '/vue/main',
+                path: '/vue/code',
                 sidebarDepth: 1,
                 children: [
                     {
@@ -108,5 +109,9 @@ module.exports = {
             },
         ],
     },
-    
+    chainWebpack(config, isServe) {
+        console.log(config)
+        return config;
+    },
+    plugins: ['@vuepress/back-to-top']
 }

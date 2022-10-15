@@ -1,7 +1,7 @@
 # vue相关解析
 ------
-[vue源码解析](/vue/code)
+[vue源码解析](/dist/vue/code)
 
-[vue-router源码](/vue/router)
+[vue-router源码](/dist/vue/router)
 
-[vuex源码](/vue/vuex)
+[vuex源码](/dist/vue/vuex)

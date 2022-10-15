@@ -1,4 +1,4 @@
 # webpack全面解析
-[loaders解析](/webpack/loaders)
+[loaders解析](/dist/webpack/loaders)
 
-[plugins插件解析](/webpack/plugins)
+[plugins插件解析](/dist/webpack/plugins)
