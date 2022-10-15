@@ -1,10 +1,15 @@
 ### JSON.stringify的几个用法
 
-- JSON.stringify(value[, replacer [, space]])  
+- JSON.stringify(value[, replacer [, space]]) 
+
 value：(必须) 可以是任意值
+
 replacer：(可选) 函数 (key, value) => {} 序列化过程中都要经过函数处理
+
         数组：只有包含在这个数组中属性名才会序列化到JSON字符串中
+
         null or 没有：序列化所有
+        
 space：(可选) 指定缩进用的空白字符串
 
 - 9个特性  
