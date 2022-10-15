@@ -92,9 +92,13 @@ module.exports = {
             },
             {
                 title: 'react解析',
-                path: '/react/main',
+                path: '/react/1',
                 sidebarDepth: 1,
                 children: [
+                    {
+                        title: '对于react的理解，特性',
+                        path: '/react/1'
+                    },
                     {
                         title: 'react源码',
                         path: '/react/code'
