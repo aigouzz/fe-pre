@@ -224,6 +224,122 @@ module.exports = {
                         path: '/vue/3'
                     },
                     {
+                        title: 'v-show和v-if怎么理解',
+                        path: '/vue/4'
+                    },
+                    {
+                        title: 'vue的实例挂载过程发生什么了',
+                        path: '/vue/5'
+                    },
+                    {
+                        title: '对vue生命周期理解',
+                        path: '/vue/6'
+                    },
+                    {
+                        title: 'vue中v-if和v-for为什么不建议一起用',
+                        path: '/vue/7'
+                    },
+                    {
+                        title: 'spa首屏加载速度慢怎么解决',
+                        path: '/vue/8'
+                    },
+                    {
+                        title: 'data属性是个函数而不是一个对象',
+                        path: '/vue/9'
+                    },
+                    {
+                        title: 'vue给对象添加新属性界面不刷新（vue2）',
+                        path: '/vue/10'
+                    },
+                    {
+                        title: '组件和插件的区别',
+                        path: '/vue/11'
+                    },
+                    {
+                        title: 'vue组件之间通信方式',
+                        path: '/vue/12'
+                    },
+                    {
+                        title: '双向绑定的理解',
+                        path: '/vue/13'
+                    },
+                    {
+                        title: 'nexttick的理解',
+                        path: '/vue/14'
+                    },
+                    {
+                        title: 'vue的mixin的理解和应用场景',
+                        path: '/vue/15'
+                    },
+                    {
+                        title: 'Vue.observable的理解',
+                        path: '/vue/16'
+                    },
+                    {
+                        title: 'key的原理和应用',
+                        path: '/vue/17'
+                    },
+                    {
+                        title: '如何缓存组件？缓存怎么更新？keep-alive的理解',
+                        path: '/vue/18'
+                    },
+                    {
+                        title: '常用的修饰符及其应用场景',
+                        path: '/vue/19'
+                    },
+                    {
+                        title: '自定义指令及其应用场景',
+                        path: '/vue/20'
+                    },
+                    {
+                        title: '过滤器及其应用',
+                        path: '/vue/21'
+                    },
+                    {
+                        title: '虚拟dom及其实现',
+                        path: '/vue/22'
+                    },
+                    {
+                        title: 'diff算法及其实现',
+                        path: '/vue/23'
+                    },
+                    {
+                        title: '封装的axios及其封装方式',
+                        path: '/vue/24'
+                    },
+                    {
+                        title: 'axios原理及其源码',
+                        path: '/vue/25'
+                    },
+                    {
+                        title: 'SSR的实现及其方式',
+                        path: '/vue/26'
+                    },
+                    {
+                        title: 'vue项目的目录结构是什么样的，如何划分？',
+                        path: '/vue/27'
+                    },
+                    {
+                        title: 'vue权限管理怎么做？控制到按钮级别权限',
+                        path: '/vue/28'
+                    },
+                    {
+                        title: '如何解决跨域？',
+                        path: '/vue/29'
+                    },
+                    {
+                        title: '本地开发部署到服务器后报404',
+                        path: '/vue/30'
+                    },
+                    {
+                        title: '怎么处理vue中错误',
+                        path: '/vue/31'
+                    },
+                    {
+                        title: 'vue3和vue2',
+                        path: '/vue/32'
+                    },
+                    {
                         title: 'vue-router源码',
                         path: '/vue/router'
                     },
