@@ -1,5 +1,8 @@
 module.exports = {
     base: '/dist/',
+    head: [
+        ['link', { rel: 'icon', href: 'https://aigouzz.github.io/dist/logo.png' }]
+      ],
     title: '前端架构',
     description: '前端架构宝典',
     dest: '../aigouzz.github.io/dist/',
