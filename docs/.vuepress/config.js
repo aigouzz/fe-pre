@@ -350,6 +350,37 @@ module.exports = {
                 ],
             },
             {
+                title: 'Vue3.0',
+                path: '/vue3/1',
+                sidebarDepth: 1,
+                children: [
+                    {
+                        title: 'Vue3的设计目标和优化',
+                        path: '/vue3/1'
+                    },
+                    {
+                        title: 'Vue3性能提升如何体现',
+                        path: '/vue3/2'
+                    },
+                    {
+                        title: 'Vue3为什么用Proxy代替defineProperty',
+                        path: '/vue3/3'
+                    },
+                    {
+                        title: 'Vue3的CompositionApi和OptionApi有什么区别',
+                        path: '/vue3/4'
+                    },
+                    {
+                        title: 'Vue3的tree shaking特性',
+                        path: '/vue3/5'
+                    },
+                    {
+                        title: 'Vue3写过组件吗，实现一个modal',
+                        path: '/vue3/6'
+                    },
+                ],
+            },
+            {
                 title: 'react解析',
                 path: '/react/1',
                 sidebarDepth: 1,
@@ -361,6 +392,130 @@ module.exports = {
                     {
                         title: 'react的virtual dom和real dom区别',
                         path: '/react/2'
+                    },
+                    {
+                        title: 'react的生命周期的不同阶段，对应方法是？',
+                        path: '/react/3'
+                    },
+                    {
+                        title: 'state和props有什么区别',
+                        path: '/react/4'
+                    },
+                    {
+                        title: 'super()和super(props)有什么区别',
+                        path: '/react/5'
+                    },
+                    {
+                        title: 'react的setState机制',
+                        path: '/react/6'
+                    },
+                    {
+                        title: 'react的事件机制',
+                        path: '/react/7'
+                    },
+                    {
+                        title: 'react事件绑定方式和区别',
+                        path: '/react/8'
+                    },
+                    {
+                        title: 'react构建组件方式',
+                        path: '/react/9'
+                    },
+                    {
+                        title: 'react组件间如何通信',
+                        path: '/react/10'
+                    },
+                    {
+                        title: 'react中key的作用',
+                        path: '/react/11'
+                    },
+                    {
+                        title: 'react中refs理解和应用场景',
+                        path: '/react/12'
+                    },
+                    {
+                        title: '类组件和函数组件的理解',
+                        path: '/react/13'
+                    },
+                    {
+                        title: '受控组件和非受控组件的理解',
+                        path: '/react/14'
+                    },
+                    {
+                        title: '高阶组件的理解',
+                        path: '/react/15'
+                    },
+                    {
+                        title: 'react hooks的理解及其应用',
+                        path: '/react/16'
+                    },
+                    {
+                        title: '引入css的方式',
+                        path: '/react/17'
+                    },
+                    {
+                        title: '组件之间过渡动画实现',
+                        path: '/react/18'
+                    },
+                    {
+                        title: 'redux的理解及其实现',
+                        path: '/react/19'
+                    },
+                    {
+                        title: 'redux中间件的理解及常用的中间件',
+                        path: '/react/20'
+                    },
+                    {
+                        title: 'react中redux结构',
+                        path: '/react/21'
+                    },
+                    {
+                        title: 'react router理解及常用的router',
+                        path: '/react/22'
+                    },
+                    {
+                        title: 'react router的模式及其实现原理',
+                        path: '/react/23'
+                    },
+                    {
+                        title: 'immutable的理解及其应用',
+                        path: '/react/24'
+                    },
+                    {
+                        title: 'react render方法原理',
+                        path: '/react/25'
+                    },
+                    {
+                        title: '提高组件渲染效率，如何避免不必要的render',
+                        path: '/react/26'
+                    },
+                    {
+                        title: 'react diff原理',
+                        path: '/react/27'
+                    },
+                    {
+                        title: 'Fiber架构的理解及其解决问题',
+                        path: '/react/28'
+                    },
+                    {
+                        title: 'react的jsx转换真实dom过程',
+                        path: '/react/29'
+                    },
+                    {
+                        title: 'react性能优化的手段',
+                        path: '/react/30'
+                    },
+                    {
+                        title: 'react项目捕获错误的方式',
+                        path: '/react/31'
+                    },
+                    {
+                        title: 'react服务端渲染及其原理',
+                        path: '/react/32'
+                    },
+                    {
+                        title: '常见问题及其解决方式',
+                        path: '/react/33'
                     },
                     {
                         title: 'react源码',
@@ -503,6 +658,156 @@ module.exports = {
                         title: '算法7-9',
                         path: '/calc/third'
                     }
+                ],
+            },
+            {
+                title: 'CSS',
+                path: '/css/1',
+                sidebarDepth: 1,
+                children: [
+                    {
+                        title: '盒子模型是什么',
+                        path: '/css/1'
+                    },
+                    {
+                        title: 'css选择器和优先级，继承的属性',
+                        path: '/css/2'
+                    },
+                    {
+                        title: 'em/px/rem/vh/vw区别',
+                        path: '/css/3'
+                    },
+                    {
+                        title: '设备像素，css像素，设备独立像素，dpr，ppi之间区别',
+                        path: '/css/4'
+                    },
+                    {
+                        title: '隐藏页面元素的方式和区别',
+                        path: '/css/5'
+                    },
+                    {
+                        title: 'BFC的理解',
+                        path: '/css/6'
+                    },
+                    {
+                        title: '元素水平垂直居中方法',
+                        path: '/css/7'
+                    },
+                    {
+                        title: '实现两栏布局，右侧自适应；三栏布局中间自适应',
+                        path: '/css/8'
+                    },
+                    {
+                        title: 'flexbox弹性盒布局模型及其适用场景',
+                        path: '/css/9'
+                    },
+                    {
+                        title: 'grid网格布局',
+                        path: '/css/10'
+                    },
+                    {
+                        title: 'css3新增特性',
+                        path: '/css/11'
+                    },
+                    {
+                        title: 'css3动画',
+                        path: '/css/12'
+                    },
+                    {
+                        title: '如何理解回流重绘，什么场景触发',
+                        path: '/css/13'
+                    },
+                    {
+                        title: '响应式设计基本原理及如何做',
+                        path: '/css/14'
+                    },
+                    {
+                        title: 'css提高性能的方式',
+                        path: '/css/15'
+                    },
+                    {
+                        title: '单行/多行文本溢出的省略样式',
+                        path: '/css/16'
+                    },
+                    {
+                        title: '实现视差滚动效果',
+                        path: '/css/17'
+                    },
+                    {
+                        title: '画一个三角形',
+                        path: '/css/18'
+                    },
+                    {
+                        title: 'chrome中小于12px的文字方式实现',
+                        path: '/css/19'
+                    },
+                    {
+                        title: 'css预编语言及其区别',
+                        path: '/css/20'
+                    },
+                ],
+            },
+            {
+                title: 'HTTP',
+                path: '/http/1',
+                sidebarDepth: 1,
+                children: [
+                    {
+                        title: 'HTTP是什么及其与HTTPS区别',
+                        path: '/http/1'
+                    },
+                    {
+                        title: '为什么HTTPS比HTTP安全，如何保证的呢',
+                        path: '/http/2'
+                    },
+                    {
+                        title: 'UDP和TCP区别及其应用场景',
+                        path: '/http/3'
+                    },
+                    {
+                        title: 'OSI七层模型',
+                        path: '/http/4'
+                    },
+                    {
+                        title: 'TCP/IP协议',
+                        path: '/http/5'
+                    },
+                    {
+                        title: 'DNS协议是什么，完整查询过程',
+                        path: '/http/6'
+                    },
+                    {
+                        title: 'HTTP1.0/1.1/2.0区别',
+                        path: '/http/7'
+                    },
+                    {
+                        title: 'HTTP常见的状态码，适应场景',
+                        path: '/http/8'
+                    },
+                    {
+                        title: 'GET和POST区别',
+                        path: '/http/9'
+                    },
+                    {
+                        title: 'HTTP常见的请求头及其作用',
+                        path: '/http/10'
+                    },
+                    {
+                        title: '输入URL发生了什么',
+                        path: '/http/11'
+                    },
+                    {
+                        title: 'TCP的三次握手和四次挥手',
+                        path: '/http/12'
+                    },
+                    {
+                        title: 'WebSocket的理解及其应用场景',
+                        path: '/http/13'
+                    },
+                    {
+                        title: 'CDN实现原理',
+                        path: '/http/14'
+                    },
                 ],
             },
         ],
