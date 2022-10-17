@@ -826,4 +826,5 @@ module.exports = {
         return config;
     },
     plugins: ['@vuepress/back-to-top']
+    //'@vuepress/last-updated'
 }
