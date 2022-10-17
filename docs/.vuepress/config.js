@@ -816,7 +816,13 @@ module.exports = {
         ],
     },
     chainWebpack(config, isServer) {
-        console.log(config)
+        config.module
+            .rule('webp')
+            .test(/\.webp$/)
+            .include
+            .end()
+            .use('file')
+            .loader('file-loader');
         return config;
     },
     plugins: ['@vuepress/back-to-top']
